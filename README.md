@@ -53,7 +53,7 @@ Adding/Removing Owners from Groups
 ServiceNow Integration
 ```
 
-## **Contributions**
+## **Contributing**
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
