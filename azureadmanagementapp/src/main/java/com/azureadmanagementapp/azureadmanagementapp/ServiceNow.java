@@ -10,7 +10,7 @@ import okhttp3.Response;
 
 public class ServiceNow {
 
-  final private String authString = "YWRtaW46R2I2WVdeL3J0WDB4";
+  final private String authString = "";
 
   public String getAuth() {
     return authString;
@@ -22,7 +22,7 @@ public class ServiceNow {
     MediaType mediaType = MediaType.parse("application/json");
     RequestBody body = RequestBody.create(mediaType, "{\"name\":\"" + ticketType + " " + name + "\"}");
     Request request = new Request.Builder()
-        .url("https://dev190966.service-now.com/api/now/table/chg_approval_def")
+        .url("*********")
         .method("POST", body)
         .addHeader("Content-Type", "application/json")
         .addHeader("Authorization", "Basic " + getAuth())
