@@ -9,8 +9,8 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class GraphToken {
-  final String client_id = "ed45019e-f93e-4d93-b892-4b9224315df2";
-  final String client_secret = "PuU8Q~WM0rdEVdQPLNLCiWoGUVarl6LI6qMNmcwV";
+  final String client_id = "";
+  final String client_secret = "";
 
   public String getGraphToken() throws IOException {
     OkHttpClient client = new OkHttpClient().newBuilder()
@@ -21,7 +21,7 @@ public class GraphToken {
             + "&resource=https://graph.microsoft.com/",
         mediaType);
     Request request = new Request.Builder()
-        .url("https://login.microsoftonline.com/e78dc14e-76cd-400d-b760-935133352fe3/oauth2/token")
+        .url("https://login.microsoftonline.com/**********/oauth2/token")
         .method("POST", body)
         .addHeader("grant_type", "")
         .addHeader("Content-Type", "application/x-www-form-urlencoded")
