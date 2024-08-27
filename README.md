@@ -1,6 +1,9 @@
 # Azure AD Management App
 
-A Java Spring Boot web application to manage Azure AD components much faster than through the portal. This application utilizes the Azure Graph API as well as the ServiceNow API.
+A Java Spring Boot web application to manage Azure AD components much faster than through the portal. This application utilizes the Azure Graph API as well as the ServiceNow API. Features include creating/deleting a group, adding/removing members from a group, adding/removing owners from a group, as well as ServiceNow integration.
+
+![image](https://github.com/user-attachments/assets/be42acf9-19d6-4252-ab2a-f485bc833f0e)
+
 
 ## Table of Contents
 
@@ -8,6 +11,7 @@ A Java Spring Boot web application to manage Azure AD components much faster tha
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
+- [Contact](#contact)
 
 ## Installation
 
@@ -61,3 +65,6 @@ Create a new branch (git checkout -b feature-branch).
 Make and commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Create a Pull Request.
+
+## **Contact**
+I'm always looking for interesting things to work on. You can contact me on my LinkedIn: https://www.linkedin.com/in/akshay-anandan-203974216/ 
